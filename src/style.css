@@ -6,7 +6,7 @@
 
 .content {
   display: flex;
-   margin: 35px 100px auto;
+  margin: 35px 100px auto;
 }
 
 .content-1 {
@@ -23,10 +23,14 @@
 
 .score {
   margin-top: 20px;
+  height: 30px;
 }
 
 .submit {
   margin-top: 20px;
+  padding: 10px;
+  border-radius: 4px;
+  width: 70px;
 }
 
 .heading {
@@ -36,36 +40,25 @@
   width: 345px;
 }
 
-.board{
+.board {
   border: 2px solid #141414;
   margin-top: 12px;
 }
 
 .field {
   padding: 15px;
-  background-color: rgb(218, 216, 216);
+  background-color: rgb(253, 246, 246);
 }
 
 .field-1 {
   padding: 15px;
 }
 
-
 .btn-1 {
   padding: 10px;
   border-radius: 4px;
 }
 
-.submit {
-  padding: 10px;
-  border-radius: 4px;
-  width: 70px;
-}
-
 .name {
-  height: 30px;
-}
-
-.score {
   height: 30px;
 }
