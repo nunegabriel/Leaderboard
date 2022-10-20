@@ -1,4 +1,3 @@
-# Webpack Template
 # LeaderBoard
 
 > This is a project that we created using HTML,CSS and js. It has the functionality of displaying names and scores
