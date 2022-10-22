@@ -14,7 +14,6 @@ body {
   border: 2px solid #141414;
   border-radius: 22px;
   padding: 20px;
-
 }
 
 .content-1 {
@@ -43,7 +42,7 @@ body {
   font-size: 20px;
   background-color: rgb(255, 108, 108);
   color: beige;
-  cursor: pointer
+  cursor: pointer;
 }
 
 .heading {
@@ -77,8 +76,7 @@ body {
   font-size: 20px;
   background-color: rgb(255, 108, 108);
   color: beige;
-  cursor: pointer
-
+  cursor: pointer;
 }
 
 .name {
@@ -101,11 +99,9 @@ body {
   }
 
   .heading {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 80px;
-  width: 245px;
-}
-
-
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    width: 245px;
+  }
 }
