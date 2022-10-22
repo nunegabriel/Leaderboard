@@ -16,6 +16,12 @@ To get the content of this project locally you need to run the following command
 - IDE(code editor) like: **Vscode**, **Sublime**, etc. 
 - [Git](https://www.linode.com/docs/guides/how-to-install-git-on-linux-mac-and-windows/)
 
+### Install
+> To install linters and other project's dependencies run:
+```bash
+npm install
+```
+
 ### Setup
 1. Download the **Zip** file or clone the repo with:
 ```bash
@@ -23,7 +29,7 @@ https://github.com/nunegabriel/Leaderboard.git
 ```
 3. To access cloned directory run:
 ```bash
-cd awesome-books
+cd Leaderboard
 ```
 3. run  
 ```bash
@@ -31,11 +37,7 @@ npm start
 ```
 to start a local dev server
 
-### Install
-> To install linters and other project's dependencies run:
-```bash
-npm install
-```
+
 ## Run Test for Linters
 
 For tracking linter errors locally you need to follow these steps:
