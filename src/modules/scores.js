@@ -1,25 +1,16 @@
-const scores = [
-  { name: 'Name', score: 20 },
-  { name: 'Name', score: 20 },
-  { name: 'Name', score: 10 },
-  { name: 'Name', score: 20 },
-  { name: 'Name', score: 20 },
-  { name: 'Name', score: 20 },
-  { name: 'Name', score: 20 },
-];
-
-const displayScore = () => {
+const displayScores = (scores) => {
+  const scoresContainer = document.querySelector('.board');
   let listDiv = '';
-  const board = document.querySelector('.board');
+  scores.sort((a, b) => b.score - a.score);
   scores.forEach((score) => {
     listDiv += `
         <div class="field">
-        ${score.name} : ${score.score}
+        ${score.user} : ${score.score}
         </div>
         `;
   });
 
-  board.innerHTML = listDiv;
+  scoresContainer.innerHTML = listDiv;
 };
 
-export default displayScore;
+export default displayScores;
