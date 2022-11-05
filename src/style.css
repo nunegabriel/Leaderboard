@@ -3,3 +3,105 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.content {
+  display: flex;
+  margin: 35px 100px auto;
+  border: 2px solid #141414;
+  border-radius: 22px;
+  padding: 20px;
+}
+
+.content-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-1 {
+  display: flex;
+  flex-direction: column;
+  margin: 123px 20px 10px 160px;
+  width: 250px;
+}
+
+.score {
+  margin-top: 20px;
+  height: 30px;
+}
+
+.submit {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 4px;
+  width: 100px;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: rgb(255, 108, 108);
+  color: beige;
+  cursor: pointer;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+  width: 345px;
+}
+
+.main-heading {
+  color: rgb(255, 108, 108);
+}
+
+.board {
+  border: 2px solid #141414;
+  margin-top: 12px;
+}
+
+.field {
+  padding: 15px;
+  background-color: rgb(253, 246, 246);
+}
+
+.field-1 {
+  padding: 15px;
+}
+
+.btn-1 {
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 20px;
+  background-color: rgb(255, 108, 108);
+  color: beige;
+  cursor: pointer;
+}
+
+.name {
+  height: 30px;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    margin: 35px 26px auto;
+  }
+
+  .input-1 {
+    display: flex;
+    flex-direction: column;
+    margin: 123px 20px 10px 10px;
+    width: 250px;
+  }
+
+  .heading {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    width: 245px;
+  }
+}
